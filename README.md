@@ -8,6 +8,7 @@
 
 \
 \
+\
 **We will now setup the Vulnerable Web-Socket Chat Application**  
 
 Step 1: Go inside "***/Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab_websocket***"  
@@ -31,6 +32,7 @@ Now visit "***https://chatapp.local:3000***", we can see the lab is running.
 
 \
 \
+\
 **We will now setup the Attacker Website**  
 
 Step 1: Go to the "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker***"
@@ -40,6 +42,7 @@ The attacker website will be running at "***http://attacker.local:8000***"
 <img width="1525" height="322" alt="image" src="https://github.com/user-attachments/assets/cb7cbfe7-6a50-4b9b-9777-ec5b9b692935" />
 <img width="1737" height="767" alt="Screenshot 2026-09-13 030706" src="https://github.com/user-attachments/assets/5614be64-4728-4eff-9717-66bccf64a8d0" />
 
+\
 \
 \
 **We will now setup the Attacker Control Server**  
