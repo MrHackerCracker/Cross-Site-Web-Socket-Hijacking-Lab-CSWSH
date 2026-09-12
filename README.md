@@ -1,2 +1,2 @@
-How to install the Cross Site Web Socket Hijacking Lab
+Installation of Cross Site Web Socket Hijacking Lab (CSWSH)
 
