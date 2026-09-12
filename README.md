@@ -51,3 +51,9 @@ Step 1: Go to "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker_c2_serv
 Step 2: Write "***npm install ws***" then "***node server.js***", our server will get started.  
 <img width="1311" height="78" alt="Screenshot 2026-09-13 031103" src="https://github.com/user-attachments/assets/3e800e1d-50b6-4d08-af6c-a2d127c46476" />
 <img width="1467" height="260" alt="Screenshot 2026-09-13 031127" src="https://github.com/user-attachments/assets/263890c5-cb89-4081-9614-970b7b62543d" />
+
+\
+\
+\
+For detailed solution kindly refer to the video
+Link: 
