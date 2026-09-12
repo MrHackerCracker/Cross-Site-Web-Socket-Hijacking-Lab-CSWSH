@@ -2,7 +2,7 @@
 
 \
 **Now setup the Domain Names in "/etc/hosts"**  
-127.0.0.1 attacker.local chatapp.local controlserver.local  
+127.0.0.1 attacker.local chatapp.local controlserver.local.  
 
 <img width="1217" height="525" alt="image" src="https://github.com/user-attachments/assets/6c48ee13-315d-49e5-acaf-8f80098cef1f" />
 
@@ -11,14 +11,14 @@
 \
 **We will now setup the Vulnerable Web-Socket Chat Application**  
 
-Step 1: Go inside "***/Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab_websocket***"  
+Step 1: Go inside "***/Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab_websocket***".  
 Step 2: Write "***sudo apt update***", "***sudo apt install mkcert***", "***mkcert -install***" to install the local CA for our project.  
 Step 3: Do "***mkcert chatapp.local localhost 127.0.0.1***", to create keys for the website "***chatapp.local***".  
-Step 4: Create a folder named "***cert***"  
+Step 4: Create a folder named "***cert***".  
 Step 5: Do "***cp chatapp.local+2.pem cert/cert.pem***", "***cp chatapp.local+2-key.pem cert/key.pem***" for creating the keys.  
 Step 6: Install node and npm, if not installed.  
 Step 7: Do "***npm init -y***", "***npm install express ws bcryptjs jsonwebtoken***".  
-Step 8: Lastly write "***npm start***"  
+Step 8: Lastly write "***npm start***".  
   
 Now visit "***https://chatapp.local:3000***", we can see the lab is running.  
 
@@ -35,10 +35,11 @@ Now visit "***https://chatapp.local:3000***", we can see the lab is running.
 \
 **We will now setup the Attacker Website**  
 
-Step 1: Go to the "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker***"  
-Step 2: Simply write "***python3 -m http.server 8000***"  
+Step 1: Go to the "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker***".  
+Step 2: Simply write "***python3 -m http.server 8000***".  
 
-The attacker website will be running at "***http://attacker.local:8000***"
+The attacker website will be running at "***http://attacker.local:8000***".  
+
 <img width="1525" height="322" alt="image" src="https://github.com/user-attachments/assets/cb7cbfe7-6a50-4b9b-9777-ec5b9b692935" />
 <img width="1737" height="767" alt="Screenshot 2026-09-13 030706" src="https://github.com/user-attachments/assets/5614be64-4728-4eff-9717-66bccf64a8d0" />
 
@@ -48,7 +49,9 @@ The attacker website will be running at "***http://attacker.local:8000***"
 **We will now setup the Attacker Control Server**  
 
 Step 1: Go to "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker_c2_server***"  
-Step 2: Write "***npm install ws***" then "***node server.js***", our server will get started.  
+Step 2: Write "***npm install ws***"  
+Step 3: Then "***node server.js***", our server will get started.  
+
 <img width="1311" height="78" alt="Screenshot 2026-09-13 031103" src="https://github.com/user-attachments/assets/3e800e1d-50b6-4d08-af6c-a2d127c46476" />
 <img width="1467" height="260" alt="Screenshot 2026-09-13 031127" src="https://github.com/user-attachments/assets/263890c5-cb89-4081-9614-970b7b62543d" />
 
