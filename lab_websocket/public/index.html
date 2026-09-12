@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vulnerable Live Chat Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Live Chat</h1>
+    <p class="warning">Security lab: this application intentionally contains cross-origin authentication weaknesses.</p>
+<p>Login persists in the browser until the session expires or you choose Logout.</p>
+
+    <section id="auth">
+      <div class="card">
+        <h2>Register</h2>
+        <input id="regUser" placeholder="Username">
+        <input id="regPass" type="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+      </div>
+
+      <div class="card">
+        <h2>Login</h2>
+        <input id="loginUser" placeholder="Username">
+        <input id="loginPass" type="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+      </div>
+      <pre id="authStatus"></pre>
+    </section>
+
+    <section id="chat" class="hidden">
+      <div class="topbar">
+        <span>Logged in as <b id="me"></b></span>
+        <button onclick="logout()">Logout</button>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h2>Users</h2>
+          <button onclick="loadUsers()">Refresh users</button>
+          <div id="users"></div>
+        </div>
+
+        <div class="card">
+          <h2>Messages</h2>
+          <div id="messages" class="messages"></div>
+          <div class="composer">
+            <input id="to" placeholder="Recipient username">
+            <input id="message" placeholder="Message" onkeydown="if(event.key==='Enter') sendMessage()">
+            <button onclick="sendMessage()">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<script src="app.js"></script>
+</body>
+</html>
