@@ -13,7 +13,7 @@
 
 Step 1: Go inside "***/Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab_websocket***"  
 Step 2: Write "***sudo apt update***", "***sudo apt install mkcert***", "***mkcert -install***" to install the local CA for our project.  
-Step 3: Do "***mkcert chatapp.local localhost 127.0.0.1***", to create keys for the website "***chatapp.local***".
+Step 3: Do "***mkcert chatapp.local localhost 127.0.0.1***", to create keys for the website "***chatapp.local***".  
 Step 4: Create a folder named "***cert***"  
 Step 5: Do "***cp chatapp.local+2.pem cert/cert.pem***", "***cp chatapp.local+2-key.pem cert/key.pem***" for creating the keys.  
 Step 6: Install node and npm, if not installed.  
