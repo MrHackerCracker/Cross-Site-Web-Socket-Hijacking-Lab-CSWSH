@@ -37,6 +37,7 @@ Step 2: Simply write "***python3 -m http.server 8000***"
 
 The attacker website will be running at "***http://attacker.local:8000***"
 <img width="1525" height="322" alt="image" src="https://github.com/user-attachments/assets/cb7cbfe7-6a50-4b9b-9777-ec5b9b692935" />
+<img width="1737" height="767" alt="Screenshot 2026-09-13 030706" src="https://github.com/user-attachments/assets/5614be64-4728-4eff-9717-66bccf64a8d0" />
 
 \
 \
@@ -44,4 +45,5 @@ The attacker website will be running at "***http://attacker.local:8000***"
 
 Step 1: Go to "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker_c2_server***"  
 Step 2: Write "***npm install ws***" then "***node server.js***", our server will get started.  
-
+<img width="1311" height="78" alt="Screenshot 2026-09-13 031103" src="https://github.com/user-attachments/assets/3e800e1d-50b6-4d08-af6c-a2d127c46476" />
+<img width="1467" height="260" alt="Screenshot 2026-09-13 031127" src="https://github.com/user-attachments/assets/263890c5-cb89-4081-9614-970b7b62543d" />
