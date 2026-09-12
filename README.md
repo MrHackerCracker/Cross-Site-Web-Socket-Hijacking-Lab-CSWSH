@@ -35,7 +35,7 @@ Now visit "***https://chatapp.local:3000***", we can see the lab is running.
 \
 **We will now setup the Attacker Website**  
 
-Step 1: Go to the "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker***"
+Step 1: Go to the "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker***"  
 Step 2: Simply write "***python3 -m http.server 8000***"  
 
 The attacker website will be running at "***http://attacker.local:8000***"
