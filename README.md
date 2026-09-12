@@ -36,10 +36,6 @@ Step 1: Go to the "***Cross-Site-Web-Socket-Hijacking-Lab-CSWSH/lab/attacker***"
 Step 2: Simply write "***python3 -m http.server 8000***"  
 
 The attacker website will be running at "***http://attacker.local:8000***"
-
-
-
-
-
+<img width="1525" height="322" alt="image" src="https://github.com/user-attachments/assets/cb7cbfe7-6a50-4b9b-9777-ec5b9b692935" />
 
 
