@@ -3,6 +3,7 @@
 \
 **Now setup the Domain Names in "/etc/hosts"**  
 127.0.0.1 attacker.local chatapp.local controlserver.local  
+
 <img width="1217" height="525" alt="image" src="https://github.com/user-attachments/assets/6c48ee13-315d-49e5-acaf-8f80098cef1f" />
 
 \
